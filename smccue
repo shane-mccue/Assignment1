@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Fan Page</title>
+    <style>
+        body {
+            background-color: #1e272e;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        #container {
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        #Title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        #CoverArt {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: 10px auto;
+            display: block;
+        }
+
+        #Rating {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        #Trailer {
+            width: 100%;
+            height: 315px;
+        }
+
+        #IMDBLink {
+            text-decoration: none;
+            color: #ffee58; 
+            display: block;
+            margin: 10px 0;
+        }
+
+        #Summary {
+            font-size: 16px;
+            margin: 20px 0;
+        }
+
+        #Actors {
+            font-size: 16px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+            #Actors li {
+                margin: 5px 0;
+            }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 id="Title">Suits</h1>
+        <img id="CoverArt" src="https://pyxis.nymag.com/v1/imgs/c0c/810/0e8ab92726b8c430c2894d9c81707f4bf9-17-suits.rsquare.w700.jpg" alt="Cover Art">
+        <h5 id="Rating">IMDB Rating: 8.4/10</h5>
+        <iframe id="Trailer" src="https://www.youtube.com/watch?v=85z53bAebsI&ab_channel=BlockbusterAustralia" frameborder="0" allowfullscreen></iframe>
+        <a id="IMDBLink" href="https://www.imdb.com/title/tt1632701/">Visit on IMDB</a>
+        <p id="Summary">On the run from a drug deal gone bad, brilliant college dropout Mike Ross finds himself working with Harvey Specter, one of New York City's best lawyers.</p>
+        <ul id="Actors">
+            <li>Gabriel Macht</li>
+            <li>Patrick J. Adams</li>
+            <li>Meghan Markle</li>
+            <li>Sarah Rafferty</li>
+            <li>Rick Hoffman</li>
+        </ul>
+    </div>
+</body>
+</html>
+
